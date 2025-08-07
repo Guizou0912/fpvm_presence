@@ -13,6 +13,7 @@ const BreadcrumbNavigation = ({ customBreadcrumbs = null }) => {
     '/member-profile': { label: 'Member Profile', icon: 'User' },
     '/attendance-reports': { label: 'Attendance Reports', icon: 'BarChart3' },
     '/qr-badge-generator': { label: 'Badge Generator', icon: 'CreditCard' },
+    '/organization-structure-management': { label: 'Organization Structure', icon: 'Building2' },
     '/login': { label: 'Login', icon: 'LogIn' }
   };
 

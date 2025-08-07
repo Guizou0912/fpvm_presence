@@ -47,6 +47,18 @@ const NavigationSidebar = ({ isCollapsed = false, onToggleCollapse, userRole = '
       ]
     },
     {
+      section: 'Organization',
+      items: [
+        {
+          label: 'Structure Management',
+          path: '/organization-structure-management',
+          icon: 'Building2',
+          roles: ['admin'],
+          tooltip: 'Manage synodes, churches, and groups'
+        }
+      ]
+    },
+    {
       section: 'Reports',
       items: [
         {
